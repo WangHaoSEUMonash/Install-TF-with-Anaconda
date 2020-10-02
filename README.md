@@ -7,7 +7,7 @@
     * In System Variable, New a EV named ANACONDA_HOME, whose path is the Anaconda installation path
     * In Enviroment Variable, add the three EVs into the "Path", whose name is "%ANACONDA_HOMES%\Scripts", "%ANACONDA_HOME%", "%ANACONDA_HOME%\Library\bin"
   * Confirm whether the Anaconda installation is sucessful
-    * In cmd, type in "conda --version". If the version of Anaconda is given, it is sucessful.
+    * In cmd, type in "conda --version". If the version of Anaconda is given, it is successful.
   * **THIS IS THE END OF INSTALLING ANACONDA**
 
 * Install tensorflow (TF)
@@ -15,12 +15,12 @@
   * Open Anaconda Prompt
   * Type in "conda create -n EnvName python=3.7" and type in "y"
   * Waiting until finish
-  * Confirm whether the virtual enviroment installation is sucessful
+  * Confirm whether the virtual enviroment installation is successful
     * Type in "conda info --envs" in Anaconda Prompt
   * Install TF
     * Type in "conda activate EnvName" in the (base)env.
     * In the (EnvName)env, type in "conda install tensorflow" and waiting
-  * Confirm whether the TF installation is sucessful
+  * Confirm whether the TF installation is successful
     * Open Anaconda Prompt, enter the (EnvName)env
     * Type in "python", "import tensorflow as tf" 
   * **THIS IS THE END OF INSTALLING TF**
