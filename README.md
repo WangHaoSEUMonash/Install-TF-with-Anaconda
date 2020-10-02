@@ -8,7 +8,7 @@
     * In Enviroment Variable, add the three EVs into the "Path", whose name is "%ANACONDA_HOMES%\Scripts", "%ANACONDA_HOME%", "%ANACONDA_HOME%\Library\bin"
   * Confirm whether the Anaconda installation is sucessful
     * In cmd, type in "conda --version". If the version of Anaconda is given, it is sucessful.
-  * THIS IS THE END OF INSTALLING ANACONDA
+  * **THIS IS THE END OF INSTALLING ANACONDA**
 
 * Install tensorflow (TF)
   * In cmd, type in "conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/" and "conda config --set show_channel_urls yes"
@@ -23,13 +23,14 @@
   * Confirm whether the TF installation is sucessful
     * Open Anaconda Prompt, enter the (EnvName)env
     * Type in "python", "import tensorflow as tf" 
-  * THIS IS THE END OF INSTALLING TF
+  * **THIS IS THE END OF INSTALLING TF**
 
 * Making the TF can be used in Jupyter notebook
     * Up to now, the TF can be used in Anaconda Prompt. However, when using it in Jupyter notebook, there is something wrong.
   * In the (EnvName)env, type in "conda install ipython" and "conda install jupyter"
   * Type in "ipython kernelspec install-self --user" and you can see sth like "Installed kernelspec python3 in C:\Users\xxx\Jupyter\kernels\python3"
   * Open Jupyter notebook and type in "import tensorflow as tf"
+  * **Congradulation that you have succedd installing TF**
   
 ## Reference and Express my thanks
 #### This direction is based on the two Chinese blogs as follows, thanks for the shared experience of the blogs' writers.
