@@ -5,7 +5,7 @@
   * Click "Next", "I Agree", "(Select Installation Type)Just Me", "Next", "(Choose Install Location)Next", (Advanced Installation Options, just mark the second one), "Next","Finish"
   * enviroment variable (EV)
     * In System Variable, New a EV named ANACONDA_HOME, whose path is the Anaconda installation path
-    * In Enviroment Variable, add the three EV into the "Path", whose name is "%ANACONDA_HOMES%\Scripts", "%ANACONDA_HOME%", "%ANACONDA_HOME%\Library\bin"
+    * In Enviroment Variable, add the three EVs into the "Path", whose name is "%ANACONDA_HOMES%\Scripts", "%ANACONDA_HOME%", "%ANACONDA_HOME%\Library\bin"
   * Confirm whether the Anaconda installation is sucessful
     * In cmd, type in "conda --version". If the version of Anaconda is given, it is sucessful.
   * THIS IS THE END OF INSTALLING ANACONDA
@@ -32,5 +32,6 @@
   * Open Jupyter notebook and type in "import tensorflow as tf"
   
 ## Reference and Express my thanks
-    * https://www.cnblogs.com/bjxqmy/p/12661931.html
-    * https://blog.csdn.net/weixin_41043240/article/details/79519118
+### This direction is based on the two Chinese blogs as follows, thanks for the shared experience of the blogs' writers.
+### https://www.cnblogs.com/bjxqmy/p/12661931.html
+### https://blog.csdn.net/weixin_41043240/article/details/79519118
