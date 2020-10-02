@@ -30,7 +30,7 @@
   * In the (EnvName)env, type in "conda install ipython" and "conda install jupyter"
   * Type in "ipython kernelspec install-self --user" and you can see sth like "Installed kernelspec python3 in C:\Users\xxx\Jupyter\kernels\python3"
   * Open Jupyter notebook and type in "import tensorflow as tf"
-  * **Congradulation that you have succedd installing TF**
+  * **CONGRADULATION that you have succedd installing TF on Anaconda**
   
 ## Reference and Express my thanks
 #### This direction is based on the two Chinese blogs as follows, thanks for the shared experience of the blogs' writers.
