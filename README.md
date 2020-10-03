@@ -19,7 +19,7 @@
     * Type in "conda info --envs" in Anaconda Prompt
   * Install TF
     * Type in "conda activate EnvName" in the (base)env.
-    * In the (EnvName)env, type in "conda install tensorflow" and waiting
+    * In the (EnvName)env, type in "pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow==1.xx(2.xx)" and wait
   * Confirm whether the TF installation is successful
     * Open Anaconda Prompt, enter the (EnvName)env
     * Type in "python", "import tensorflow as tf" 
