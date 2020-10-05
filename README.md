@@ -1,7 +1,7 @@
 # Install-TensorFlow-with-Anaconda (written on Oct 2nd, 2020)
 ## Install tensorflow with Anaconda
 * Install Anaconda
-  * Download Anaconda3-2020.02-Windows-x86_64.exe on [Tsinghua University's mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
+  * Download Anaconda3-2020.02-Windows-x86_64.exe on [Tsinghua University's mirrors](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
   * Click "(Welcome to ...)Next", "I Agree", "(Select Installation Type)Just Me, Next", "(Choose Install Location)Next", (Advanced Installation Options, just mark the second one), "Next","Finish"
   * enviroment variable (EV)
     * In System Variable, New a EV named ANACONDA_HOME, whose path is the Anaconda installation path
@@ -22,14 +22,14 @@
     * In the (EnvName)env, type in "pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow==1.xx(or 2.xx)" (In Andrew Ng's deep learning course homework, I choose 1.14) and wait
   * Confirm whether the TF installation is successful
     * Open Anaconda Prompt, enter the (EnvName)env
-    * Type in "python", "import tensorflow as tf" 
+    * Type in "python", "import tensorflow as tf", if nothing wrong is reported, it is successful. Ignore the warning about Future Version, for the TF we install is not the lastest version.
   * **THIS IS THE END OF INSTALLING TF**
 
 * Making the TF can be used in Jupyter notebook
     * Up to now, the TF can be used in Anaconda Prompt. However, when using it in Jupyter notebook, there is something wrong.
   * In the (EnvName)env, type in "conda install ipython" and "conda install jupyter"
-  * Type in "ipython kernelspec install-self --user" and you can see sth like "Installed kernelspec python3 in C:\Users\xxx\Jupyter\kernels\python3"
-  * Open Jupyter notebook and type in "import tensorflow as tf"
+  * Type in "ipython kernelspec install-self --user" and you can see something like "Installed kernelspec python3 in C:\Users\xxx\Jupyter\kernels\python3"
+  * Open Jupyter notebook and type in "import tensorflow as tf". Hope that there is nothing wrong reported.
   * **CONGRADULATION that you have succedd installing TF on Anaconda**
   
 ## Reference
