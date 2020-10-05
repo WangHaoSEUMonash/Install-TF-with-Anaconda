@@ -11,7 +11,7 @@
     * In cmd, type in "conda --version". If the version of Anaconda is given, it is successful.
   * **THIS IS THE END OF INSTALLING ANACONDA**
 
-## Install tensorflow (TF)
+## Install TensorFlow (TF)
   * In cmd, type in "conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/" and "conda config --set show_channel_urls yes"
   * Open Anaconda Prompt
   * Type in "conda create -n EnvName python=3.7" and type in "y"
@@ -24,14 +24,14 @@
   * Confirm whether the TF installation is successful
     * Open Anaconda Prompt, activate the (EnvName)env
     * Type in "python", "import tensorflow as tf", if nothing wrong is reported, it is successful. Ignore the warning about Future Version, for the TF we install is not the lastest version.
-  * **THIS IS THE END OF INSTALLING TF**
+  * **THIS IS THE END OF INSTALLING TensorFlow**
 
-## Making the TF can be used in Jupyter notebook
+## Make the TensorFlow can be used in Jupyter notebook
   * Up to now, the TF can be used in Anaconda Prompt. However, when using it in Jupyter notebook, there is something wrong.
   * In the (EnvName)env, type in "conda install ipython" and "conda install jupyter"
   * Type in "ipython kernelspec install-self --user" and you can see something like "Installed kernelspec python3 in C:\Users\xxx\Jupyter\kernels\python3"
   * Open Jupyter notebook and type in "import tensorflow as tf". Hope that there is nothing wrong reported. If hating the Future Version warning, you can re-run the cell and the warning will disappear.
-  * **CONGRADULATION that you have succeded installing TF on Anaconda**
+  * **CONGRADULATION that you have succeded installing TensorFlow on Anaconda**
   
 ## Reference
 #### This direction is based on the two Chinese blogs as follows, thanks for the shared experience of the blogs' writers.
