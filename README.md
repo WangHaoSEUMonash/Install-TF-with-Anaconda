@@ -22,7 +22,7 @@
     * Type in "conda activate EnvName" in the (base)env.
     * In the (EnvName)env, type in "pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple/ tensorflow==1.xx(or 2.xx)" (In Andrew Ng's deep learning course homework, I choose 1.14) and wait
   * Confirm whether the TF installation is successful
-    * Open Anaconda Prompt, enter the (EnvName)env
+    * Open Anaconda Prompt, activate the (EnvName)env
     * Type in "python", "import tensorflow as tf", if nothing wrong is reported, it is successful. Ignore the warning about Future Version, for the TF we install is not the lastest version.
   * **THIS IS THE END OF INSTALLING TF**
 
