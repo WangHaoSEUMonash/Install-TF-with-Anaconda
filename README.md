@@ -32,7 +32,7 @@
   * Open Jupyter notebook and type in "import tensorflow as tf"
   * **CONGRADULATION that you have succedd installing TF on Anaconda**
   
-## Reference and Express my thanks
+## Reference
 #### This direction is based on the two Chinese blogs as follows, thanks for the shared experience of the blogs' writers.
 #### https://www.cnblogs.com/bjxqmy/p/12661931.html
 #### https://blog.csdn.net/weixin_41043240/article/details/79519118
