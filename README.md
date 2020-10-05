@@ -1,6 +1,6 @@
 # Install-TensorFlow-with-Anaconda (written on Oct 2nd, 2020)
-## Install tensorflow with Anaconda
-* **Install Anaconda**
+
+## Install Anaconda
   * Download Anaconda3-2020.02-Windows-x86_64.exe on [Tsinghua University's mirrors](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
   * Click "(Welcome to ...)Next", "I Agree", "(Select Installation Type)Just Me, Next", "(Choose Install Location)Next", (Advanced Installation Options, just mark the second one), "Next","Finish"
   * environment variable (EV)
