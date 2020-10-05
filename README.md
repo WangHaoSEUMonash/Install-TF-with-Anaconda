@@ -30,7 +30,7 @@
     * Up to now, the TF can be used in Anaconda Prompt. However, when using it in Jupyter notebook, there is something wrong.
   * In the (EnvName)env, type in "conda install ipython" and "conda install jupyter"
   * Type in "ipython kernelspec install-self --user" and you can see something like "Installed kernelspec python3 in C:\Users\xxx\Jupyter\kernels\python3"
-  * Open Jupyter notebook and type in "import tensorflow as tf". Hope that there is nothing wrong reported. If hating the Future Version warning, you can rerun the cell and the warning will disappear.
+  * Open Jupyter notebook and type in "import tensorflow as tf". Hope that there is nothing wrong reported. If hating the Future Version warning, you can re-run the cell and the warning will disappear.
   * **CONGRADULATION that you have succeded installing TF on Anaconda**
   
 ## Reference
