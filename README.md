@@ -24,7 +24,7 @@
   * Confirm whether the TF installation is successful
     * Open Anaconda Prompt, activate the (EnvName)env
     * Type in "python", "import tensorflow as tf", if nothing wrong is reported, it is successful. Ignore the warning about Future Version, for the TF we install is not the lastest version.
-  * **THIS IS THE END OF INSTALLING TensorFlow**
+  * **THIS IS THE END OF INSTALLING TENSORFLOW**
 
 ## Make the TensorFlow can be used in Jupyter notebook
   * Up to now, the TF can be used in Anaconda Prompt. However, when using it in Jupyter notebook, there is something wrong.
