@@ -7,7 +7,7 @@
     * Right-click the THIS PC desktop icon, and click "Attribute". Then in Advanced system Setting, click Environment Variables.
     * In System Variable, New a EV named ANACONDA_HOME, whose path is the Anaconda installation path
     * In Environment Variable, add the three EVs into the "Path", whose names are "%ANACONDA_HOMES%\Scripts", "%ANACONDA_HOME%", "%ANACONDA_HOME%\Library\bin"
-  * Confirm whether the Anaconda installation is sucessful
+  * Confirm whether the Anaconda installation is successful
     * In cmd, type in "conda --version". If the version of Anaconda is given, it is successful.
   * **THIS IS THE END OF INSTALLING ANACONDA**
 
